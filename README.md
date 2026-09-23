@@ -31,6 +31,13 @@
 
 <br><br>
 
+## 📥 프로그램 다운로드 (사용자용)
+파이썬 설치나 복잡한 과정 없이 바로 실행하고 싶다면, 아래 링크에서 빌드된 실행 파일을 다운로드하세요!  
+👉 [VideoCapture 최신 버전 다운로드 하러 가기]()  
+* **사용 방법**: 다운로드 받은 `VideoRecorder.exe` 파일을 실행하면 바로 프로그램이 켜집니다.  
+
+<br><br>
+
 ## ⚙️ 시작 가이드 (Getting Started)
 
 ### 1. 사전 준비 (Prerequisites)
@@ -42,3 +49,34 @@
 git clone [https://github.com/MinjuKang727/VideoCapture.git](https://github.com/MinjuKang727/VideoCapture.git)
 cd VideoCapture
 ```
+
+### 3. 필요 라이브러리 설치
+```bash
+pip install -r requirements.txt
+```
+
+### 4. 프로그램 실행
+```bash
+python VideoRecorder.py
+```
+
+<br><br>
+
+## 📦 배포 파일 다운로드 (Executable)
+코드를 직접 실행하지 않고 바로 프로그램을 사용하고 싶다면, 아래 깃허브 링크에서 배포 버전을 다운로드하여 실행할 수 있습니다.  
+- Onefile 버전: 단일 파일(`VideoCapture.exe`)로 다운로드 및 실행이 편리합니다.  
+- Onedir 버전: 압축 파일(`VideoCapture.zip`) 형태이며, 실행 속도가 더 빠를 수 있습니다.  
+👉 배포 파일 다운로드 링크 바로가기
+
+<br><br>
+
+## 📌 트러블 슈팅 요약
+- **버튼 상태 초기화 버그**: 녹화 취소/중단 시 `reset_ui_to_idle()` 함수를 구축하여 모든 버튼 상태와 아이콘을 안전하게 대기 상태로 원복.  
+- **레이아웃 정렬 불일치**: 중간 프레임에 `anchor=tk.CENTER`를 적용하고 균일한 패딩을 부여하여 UI 흔들림 방지.  
+- **오디오 녹음 잡음 해결**: 샘플링 속도를 44,100Hz(표준)로 고정하고, FFmpeg 병합 시 `aresample=async=1` 필터 적용.  
+- **음소거 녹화 효율성**: 음소거 시 빈 오디오 파일을 생성하지 않고 FFmpeg의 `-an` 옵션으로 고속 저장 처리.
+
+<br><br>
+
+## 📄 라이선스 (License)
+This project is licensed under the **MIT License** - 자세한 내용은 [LICENSE]() 파일을 참고하세요.
