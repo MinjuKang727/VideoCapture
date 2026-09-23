@@ -66,7 +66,7 @@ python VideoRecorder.py
 코드를 직접 실행하지 않고 바로 프로그램을 사용하고 싶다면, 아래 깃허브 링크에서 배포 버전을 다운로드하여 실행할 수 있습니다.  
 - Onefile 버전: 단일 파일(`VideoCapture.exe`)로 다운로드 및 실행이 편리합니다.  
 - Onedir 버전: 압축 파일(`VideoCapture.zip`) 형태이며, 실행 속도가 더 빠를 수 있습니다.  
-👉 배포 파일 다운로드 링크 바로가기
+👉 [배포 파일 다운로드 링크 바로가기](https://github.com/MinjuKang727/VideoCapture/releases)  
 
 <br><br>
 
@@ -79,4 +79,4 @@ python VideoRecorder.py
 <br><br>
 
 ## 📄 라이선스 (License)
-This project is licensed under the **MIT License** - 자세한 내용은 [LICENSE]() 파일을 참고하세요.
+This project is licensed under the **MIT License** - 자세한 내용은 [LICENSE](https://github.com/MinjuKang727/VideoCapture/blob/67ce597cce988a9ee2d361415d44f216c120ee5a/LICENSE) 파일을 참고하세요.
