@@ -32,9 +32,10 @@
 <br><br>
 
 ## 📥 프로그램 다운로드 (사용자용)
-파이썬 설치나 복잡한 과정 없이 바로 실행하고 싶다면, 아래 링크에서 빌드된 실행 파일을 다운로드하세요!  
-👉 [VideoCapture 최신 버전 다운로드 하러 가기]()  
-* **사용 방법**: 다운로드 받은 `VideoRecorder.exe` 파일을 실행하면 바로 프로그램이 켜집니다.  
+코드를 직접 실행하지 않고 바로 프로그램을 사용하고 싶다면, 아래 깃허브 링크에서 배포 버전을 다운로드하여 실행할 수 있습니다.  
+- Onefile 버전: 단일 파일(`VideoCapture.exe`)로 다운로드 및 실행이 편리합니다.  
+- Onedir 버전: 압축 파일(`VideoCapture.zip`) 형태이며, 실행 속도가 더 빠를 수 있습니다.  
+👉 [배포 파일 다운로드 링크 바로가기](https://github.com/MinjuKang727/VideoCapture/releases)  
 
 <br><br>
 
@@ -59,14 +60,6 @@ pip install -r requirements.txt
 ```bash
 python VideoRecorder.py
 ```
-
-<br><br>
-
-## 📦 배포 파일 다운로드 (Executable)
-코드를 직접 실행하지 않고 바로 프로그램을 사용하고 싶다면, 아래 깃허브 링크에서 배포 버전을 다운로드하여 실행할 수 있습니다.  
-- Onefile 버전: 단일 파일(`VideoCapture.exe`)로 다운로드 및 실행이 편리합니다.  
-- Onedir 버전: 압축 파일(`VideoCapture.zip`) 형태이며, 실행 속도가 더 빠를 수 있습니다.  
-👉 [배포 파일 다운로드 링크 바로가기](https://github.com/MinjuKang727/VideoCapture/releases)  
 
 <br><br>
 
